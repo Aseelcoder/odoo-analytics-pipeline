@@ -38,11 +38,10 @@ pip install pandas sqlalchemy psycopg2-binary
 # Database Setup
 Create the target schema in your PostgreSQL:
 
-# SQL
 ```bash
 CREATE SCHEMA odoo_analytics_dw;
 ```
-Run the Pipeline
+# Run the Pipeline
 Update the credentials in odoo_etl.py and execute:
 
 ```bash
