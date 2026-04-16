@@ -34,14 +34,17 @@ The pipeline is designed to handle operational data and convert it into analytic
 Ensure you have the following Python libraries installed:
 ```bash
 pip install pandas sqlalchemy psycopg2-binary
-
+```
 # Database Setup
 Create the target schema in your PostgreSQL:
 
 # SQL
+```bash
 CREATE SCHEMA odoo_analytics_dw;
+```
 Run the Pipeline
 Update the credentials in odoo_etl.py and execute:
 
-# Bash
+```bash
 python odoo_etl.py
+```
