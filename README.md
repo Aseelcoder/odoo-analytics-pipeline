@@ -1,8 +1,6 @@
 # odoo-analytics-pipeline
-An end-to-end ETL pipeline from Odoo 19 to Apache Superset using Python and PostgreSQL.
-# Odoo Insights: End-to-End ETL Pipeline 🚀
 
-An end-to-end automated pipeline to extract CRM and Sales data from **Odoo 19**, transform it using **Python**, and load it into **PostgreSQL** for real-time visualization in **Apache Superset**.
+An end-to-end automated ETL pipeline to extract CRM and Sales data from **Odoo 19**, transform it using **Python**, and load it into **PostgreSQL** for real-time visualization in **Apache Superset**.
 
 ## 🛠️ Project Workflow
 The pipeline is designed to handle operational data and convert it into analytical insights through three main stages:
