@@ -21,7 +21,7 @@ The pipeline is designed to handle operational data and convert it into analytic
 ---
 
 ## 💻 Tech Stack
-* **ERP System:** Odoo 19 (Community)
+* **Source:** Odoo 19 ERP System (Community Edition)
 * **Database:** PostgreSQL 18
 * **Engine:** Python 3.12 (Pandas, SQLAlchemy)
 * **BI Tool:** Apache Superset
@@ -30,13 +30,13 @@ The pipeline is designed to handle operational data and convert it into analytic
 
 ## 🚀 Getting Started
 
-### Prerequisites
-Ensure you have the following Python libraries installed:
+### Environment Setup
+Install the necessary Python libraries::
 ```bash
 pip install pandas sqlalchemy psycopg2-binary
 ```
 # Database Setup
-Create the target schema in your PostgreSQL:
+Create the dedicated analytical schema in your PostgreSQL instance:
 
 ```bash
 CREATE SCHEMA odoo_analytics_dw;
@@ -47,3 +47,9 @@ Update the credentials in odoo_etl.py and execute:
 ```bash
 python odoo_etl.py
 ```
+# BI Connection
+* Open Apache Superset.
+
+* Connect to the odoo database.
+
+* Select the odoo_analytics_dw schema and the tables to start building charts.
