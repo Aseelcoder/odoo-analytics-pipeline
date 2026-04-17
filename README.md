@@ -1,6 +1,6 @@
-# odoo-analytics-pipeline
+# Odoo-to-Superset ETL Pipeline
 
-An end-to-end automated ETL pipeline to extract CRM and Sales data from **Odoo 19**, transform it using **Python**, and load it into **PostgreSQL** for real-time visualization in **Apache Superset**.
+An end-to-end automated ETL pipeline to extract CRM and Sales data from **Odoo 19**, transform it using **Python**, and load it into **PostgreSQL** for advanced business intelligence and reporting. in **Apache Superset**.
 
 
 ## 🏗️ Odoo ERP Setup & Data Entry
@@ -30,12 +30,14 @@ The pipeline is designed to handle operational data and convert it into analytic
 * Synchronizing data into a dedicated analytical schema (`odoo_analytics_dw`).
 * Ensuring data availability for BI tools without impacting ERP performance.
 
+### 4. Visualize: Connecting the Data Warehouse to Apache Superset for real-time dashboarding.
+
 ---
 
 ## 💻 Tech Stack
 * **Source:** Odoo 19 ERP System (Community Edition)
 * **Database:** PostgreSQL 18
-* **Engine:** Python 3.12 (Pandas, SQLAlchemy)
+* **ETL Engine: Python 3.12 (Pandas, SQLAlchemy, Psycopg2)
 * **BI Tool:** Apache Superset
 
 ---
