@@ -47,19 +47,19 @@ Install the necessary Python libraries::
 ```bash
 pip install pandas sqlalchemy psycopg2-binary
 ```
-# Database Setup
+### Database Setup
 Create the dedicated analytical schema in your PostgreSQL instance:
 
 ```bash
 CREATE SCHEMA odoo_analytics_dw;
 ```
-# Run the Pipeline
+### Run the Pipeline
 Update the credentials in odoo_etl.py and execute:
 
 ```bash
 python odoo_etl.py
 ```
-# BI Connection
+### BI Connection
 * Open Apache Superset.
 
 * Connect to the odoo database.
