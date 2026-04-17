@@ -2,7 +2,8 @@
 
 An end-to-end automated ETL pipeline to extract CRM and Sales data from **Odoo 19**, transform it using **Python**, and load it into **PostgreSQL** for real-time visualization in **Apache Superset**.
 
-## Odoo ERP Setup & Data Entry
+
+##🏗️ Odoo ERP Setup & Data Entry
 The journey started by configuring Odoo 19 to generate the source data:
 
 * Product Management: Created master data for products (e.g., Laptops,..) with defined costs and sales prices.
